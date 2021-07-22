@@ -21,3 +21,11 @@ toggleCart.addEventListener('click', function () {
 closeBtn.addEventListener('click', function () {
     modal.classList.remove('slide');
 });
+
+
+function addCart() {
+    let size = document.getElementById('size').value;
+    let options = document.getElementById('options').value;
+
+    window.alert("Success ad to cart " + options + "-" + size)
+}
